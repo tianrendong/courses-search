@@ -91,7 +91,7 @@ class SearchClient:
 if __name__ == "__main__":
     client = SearchClient()
 
-    with open("cs-courses.json", "r") as f:
+    with open("data/cs-courses.json", "r") as f:
         data = json.load(f)
 
     index_result = client.index(data)
