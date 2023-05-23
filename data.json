@@ -1,0 +1,41 @@
+[
+    { "key": "Lion", "desc": "Majestic big cat with golden fur and a loud roar." },
+    { "key": "Penguin", "desc": "Flightless bird with a tuxedo-like black and white coat." },
+    { "key": "Gorilla", "desc": "Intelligent primate with muscular build and gentle nature." },
+    { "key": "Elephant", "desc": "Large mammal with a long trunk and gray skin." },
+    { "key": "Koala", "desc": "Cute and cuddly marsupial with fluffy ears and a big nose." },
+    { "key": "Dolphin", "desc": "Playful marine mammal known for its intelligence and acrobatics." },
+    {
+      "key": "Orangutan",
+      "desc": "Shaggy-haired great ape found in the rainforests of Borneo and Sumatra."
+    },
+    { "key": "Giraffe", "desc": "Tallest land animal with a long neck and spots on its fur." },
+    {
+      "key": "Hippopotamus",
+      "desc": "Large, semi-aquatic mammal with a wide mouth and stubby legs."
+    },
+    { "key": "Kangaroo", "desc": "Marsupial with powerful hind legs and a long tail for balance." },
+    { "key": "Crocodile", "desc": "Large reptile with sharp teeth and a tough, scaly hide." },
+    {
+      "key": "Chimpanzee",
+      "desc": "Closest relative to humans, known for its intelligence and tool use."
+    },
+    { "key": "Tiger", "desc": "Striped big cat with incredible speed and agility." },
+    { "key": "Zebra", "desc": "Striped mammal with a distinctive mane and tail." },
+    { "key": "Ostrich", "desc": "Flightless bird with long legs and a big, fluffy tail." },
+    { "key": "Rhino", "desc": "Large, thick-skinned mammal with a horn on its nose." },
+    { "key": "Cheetah", "desc": "Fastest land animal with a spotted coat and sleek build." },
+    {
+      "key": "Polar Bear",
+      "desc": "Arctic bear with a thick white coat and webbed paws for swimming."
+    },
+    { "key": "Peacock", "desc": "Colorful bird with a vibrant tail of feathers." },
+    { "key": "Kangaroo", "desc": "Marsupial with powerful hind legs and a long tail for balance." },
+    {
+      "key": "Octopus",
+      "desc": "Intelligent sea creature with eight tentacles and the ability to change color."
+    },
+    { "key": "Whale", "desc": "Enormous marine mammal with a blowhole on top of its head." },
+    { "key": "Sloth", "desc": "Slow-moving mammal found in the rainforests of South America." },
+    { "key": "Flamingo", "desc": "Tall, pink bird with long legs and a curved beak." }
+  ]
