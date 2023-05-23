@@ -11,7 +11,7 @@ from qdrant_client.http import models
 load_dotenv()
 
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
-QDRANT_HOST = os.getenv("QDRANT_HOST")
+QDRANT_URL = os.getenv("QDRANT_URL")
 COHERE_API_KEY = os.getenv("COHERE_API_KEY")
 
 COHERE_SIZE_VECTOR = 4096  # Larger model
@@ -19,8 +19,8 @@ COHERE_SIZE_VECTOR = 4096  # Larger model
 if not QDRANT_API_KEY:
     raise ValueError("QDRANT_API_KEY is not set")
 
-if not QDRANT_HOST:
-    raise ValueError("QDRANT_HOST is not set")
+if not QDRANT_URL:
+    raise ValueError("QDRANT_URL is not set")
 
 if not COHERE_API_KEY:
     raise ValueError("COHERE_API_KEY is not set")
@@ -30,12 +30,12 @@ class SearchClient:
     def __init__(
         self,
         qdrabt_api_key: str = QDRANT_API_KEY,
-        qdrant_host: str = QDRANT_HOST,
+        qdrant_url: str = QDRANT_URL,
         cohere_api_key: str = COHERE_API_KEY,
         collection_name: str = "animal",
     ):
         self.qdrant_client = QdrantClient(
-            host=qdrant_host, api_key=qdrabt_api_key)
+            url=qdrant_url, api_key=qdrabt_api_key)
         self.collection_name = collection_name
 
         self.qdrant_client.recreate_collection(
