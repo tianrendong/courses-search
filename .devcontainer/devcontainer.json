@@ -1,6 +1,5 @@
 {
 	"name": "Course Search",
-	// "image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
 	"workspaceFolder": "/workspaces/course-search",
 
@@ -10,7 +9,5 @@
             "label": "App",
             "onAutoForward": "silent"
         }
-    },
-
-	// "postCreateCommand": "pip3 install -r requirements.txt"
+    }
 }
