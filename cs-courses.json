@@ -1,0 +1,893 @@
+[
+    {
+        "code": "CSCI 0081",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202100', '202020', '202010', '201920', '201910', '201820', '201810', '201720', '201710', '201620', '201610']",
+        "name": "TA Apprenticeship: Full Credit",
+        "prereqs": "CSCI\\xa00081CSCI\\xa00082",
+        "postreqs": "[]",
+        "info": "[\"Being an undergraduate TA is a learning experience: one not only gets a deeper understanding of the course material, but gains management and social skills that are invaluable for one's future. Students taking this course must first be selected as an undergraduate TA for a Computer Science course, a course the student has taken and done well in. Students will work with the course's instructor on a variety of course-related topics, including preparation of material and development of assignments. Whether CSCI\\xa00081 or its half-credit version (CSCI\\xa00082) is taken is up to the professor of the course being TA'd. Instructor permission required.\"]"
+      },
+      {
+        "code": "CSCI 0082",
+        "subject": "CSCI",
+        "terms": "['202120', '202100', '202020', '202010', '201920', '201910', '201820', '201810', '201720', '201710', '201620', '201610']",
+        "name": "TA Apprenticeship: Half Credit",
+        "prereqs": "CSCI\\xa00082CSCI\\xa00081",
+        "postreqs": "[]",
+        "info": "[\"Being an undergraduate TA is a learning experience: one not only gets a deeper understanding of the course material, but gains management and social skills that are invaluable for one's future. Students taking this course must first be selected as an undergraduate TA for a Computer Science course, a course the student has taken and done well in. Students will work with the course's instructor on a variety of course-related topics, including preparation of material and development of assignments. Whether CSCI\\xa00082 or its full-credit version (CSCI\\xa00081) is taken is up to the professor of the course being TA'd. Instructor permission required.\"]"
+      },
+      {
+        "code": "CSCI 0111",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202010', '201920', '201910', '201810']",
+        "name": "Computing Foundations: Data",
+        "prereqs": "CSCI\\xa00150",
+        "postreqs": "[]",
+        "info": "['An introduction to computing and programming that focuses on understanding and manipulating data. Students will learn to write programs to process both tabular and structured data, to assess programs both experimentally and theoretically, to apply basic data science concepts, and to discuss big ideas around the communication, use, and social impacts of digital information. Designed for both concentrators and non-concentrators, this is the first course in either a two- or three-course introductory sequence leading into advanced CS courses. Programming assignments will be smaller scale than in CSCI\\xa00150/0170, thus allowing students time to practice programming and discuss computational ideas in a broader context.']"
+      },
+      {
+        "code": "CSCI 0200",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Program Design with Data Structures and Algorithms",
+        "prereqs": "CSCI\\xa00112CSCI\\xa00150CSCI\\xa00190CSCI\\xa00111",
+        "postreqs": "[]",
+        "info": "[\"Students extend their program-design skills while learning multiple data structures, common graph algorithms, different forms of societal impacts from programs, how to analyze programs for performance, and how to work effectively with multiple styles of programming languages. Examples and course projects draw from several areas of computer science to help students identify their broader interests within the field. There will be a required weekly lab session involving hands-on work with course material. Prerequisite: CSCI\\xa00112, CSCI\\xa00150, 0170, or CSCI\\xa00190. In addition, CSCI\\xa00111 can be used with both additional work and the instructor's permission. The first two weeks of the course will be taught as at least two parallel tracks based on which prerequisite course a student has taken.\"]"
+      },
+      {
+        "code": "CSCI 0220",
+        "subject": "CSCI",
+        "terms": "['202120', '202100', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Introduction to Discrete Structures and Probability",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Seeks to place on solid foundations the most common structures of computer science, to illustrate proof techniques, to provide the background for an introductory course in computational theory, and to introduce basic concepts of probability theory. Introduces Boolean algebras, logic, set theory, elements of algebraic structures, graph theory, combinatorics, and probability. No prerequisites.']"
+      },
+      {
+        "code": "CSCI 0300",
+        "subject": "CSCI",
+        "terms": "['202120', '202020']",
+        "name": "Fundamentals of Computer Systems",
+        "prereqs": "CSCI\\xa00160",
+        "postreqs": "[]",
+        "info": "['Covers fundamental concepts, principles, and abstractions that underlie the design and engineering of computer systems. Students will learn how a computer works, how to write safe and performant systems software, and what systems abstractions support today’s complex, high-performance systems developed in industry. Specific topics include machine organization, systems programming and performance, key concepts of operating systems, isolation, security, virtualization, concurrent programming, and the basics of distributed systems. Combined lectures, labs, and several hands-on projects involving programming exercises in C/C++.\\nPrerequisites: CSCI\\xa00160, 0180, or 0190; or permission of the instructor.']"
+      },
+      {
+        "code": "CSCI 0320",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Introduction to Software Engineering",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190CSCI\\xa00220",
+        "postreqs": "[]",
+        "info": "['Techniques for designing, building, and maintaining large,scalable, and reusable systems. We will cover advanced programming techniques using Java and Javascript. Course assignments will familiarize students with software testing, relational databases, concurrency techniques such as threads, and software engineering tools like git, profilers, and debuggers. A major component of the course will be a group software project of your own design.\\n\\nPrerequisite: CSCI\\xa00160, CSCI\\xa00180 or CSCI\\xa00190; CSCI\\xa00220 is recommended.']"
+      },
+      {
+        "code": "CSCI 1040",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "The Basics of Cryptographic Systems",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This course will cover cryptographic concepts such as data privacy, encryption, authentication, digital signatures, differential privacy, privacy-enhancing technologies, secure computation, and electronic money. The emphasis will be on how to use cryptographic systems correctly in a larger context, rather than on the mathematical details of how they work; although we will cover some of those details too, on a high level. This course will be aimed at practicing and aspiring poets, economists, software engineers, law and policy wonks, and business tycoons. No prerequisites.']"
+      },
+      {
+        "code": "CSCI 1280",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201720', '201620']",
+        "name": "Intermediate 3D Computer Animation",
+        "prereqs": "CSCI\\xa01250CSCI\\xa01250",
+        "postreqs": "[]",
+        "info": "['Continues work begun in CSCI\\xa01250 with deeper exploration of technical and artistic aspects of 3D computer animation including more sophisticated shading and lighting methods and character modeling, rigging, animation, and dynamics. After a series of individual exercises, students pursue an independent topic and then, working alone or in pairs, create a polished demonstration. Emphasis is on in-class critique of ongoing work. Prerequisite: CSCI\\xa01250. Students may contact the instructor in December for permission.']"
+      },
+      {
+        "code": "CSCI 1310",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920']",
+        "name": "Fundamentals of Computer Systems",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"Covers fundamental concepts, principles, and abstractions that underlie the design and engineering of computer systems, with reference to applications of these concepts in industry. Topics include machine organization, systems programming and performance, key concepts of operating systems, isolation, security, virtualization, concurrent programming, and the basics of distributed systems. Combined lectures, case studies, labs, and several hands-on projects involving programming exercises. This course is intended for Computer Science Master's students only. Anyone else wanting to take the course should contact the instructor.\"]"
+      },
+      {
+        "code": "CSCI 1360",
+        "subject": "CSCI",
+        "terms": "['202120', '202110']",
+        "name": "Human Factors in Cybersecurity",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This course is designed to push you to think about cybersecurity as an idea with both physical and virtual elements. Throughout the course, we will examine the value of information, the importance of users, and the difficult balance between security and usability. The ultimate goal of this course is to give you the intellectual and scientific framework you need to create systems that are both secure and efficient to use. The course focuses on usable security practices, but also looks deeply at the way our society influences security.']"
+      },
+      {
+        "code": "CSCI 1380",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Distributed Computer Systems",
+        "prereqs": "CSCI\\xa00300CSCI\\xa00320CSCI\\xa00330CSCI\\xa01310CSCI\\xa01330",
+        "postreqs": "[]",
+        "info": "['Explores the fundamental principles and practice underlying networked information systems, first we cover basic distributed computing mechanisms (e.g., naming, replication, security, etc.) and enabling middleware technologies. We then discuss how these mechanisms and technologies fit together to realize distributed databases and file systems, web-based and mobile information systems. Prerequisite: CSCI\\xa00300, CSCI\\xa00320, CSCI\\xa00330, CSCI\\xa01310 or CSCI\\xa01330.']"
+      },
+      {
+        "code": "CSCI 1420",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Machine Learning",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['How can artificial systems learn from examples and discover information buried in data? We explore the theory and practice of statistical machine learning, focusing on computational methods for supervised and unsupervised learning. Specific topics include empirical risk minimization, probably approximately correct learning, kernel methods, neural networks, maximum likelihood estimation, the expectation maximization algorithm, and principal component analysis. This course also aims to expose students to relevant ethical and societal considerations related to machine learning that may arise in practice.\\nPlease contact the instructor for information about the waitlist.']"
+      },
+      {
+        "code": "CSCI 1430",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202020', '201920', '201820', '201710', '201620']",
+        "name": "Computer Vision",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['How can we program computers to understand the visual world? This course treats vision as inference from noisy and uncertain data and emphasizes probabilistic and statistical approaches. Topics may include perception of 3D scene structure from stereo, motion, and shading; segmentation and grouping; texture analysis; learning, object recognition; tracking and motion estimation. Strongly recommended: basic linear algebra, calculus, and probability.']"
+      },
+      {
+        "code": "CSCI 1440",
+        "subject": "CSCI",
+        "terms": "['202120', '202020']",
+        "name": "Algorithmic Game Theory",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"This course examines topics in game theory and mechanism design from a computer scientist's perspective. Through the lens of computation, the focus is the design and analysis of systems utilized by self-interested agents. Students will investigate how the potential for strategic agent behavior can/should influence system design, and the ramifications of conflicts of interest between system designers and participating agents. Emphasis on computational tractability is paramount, so that simple designs are often preferred to optimal. Students will learn to analyze competing designs using the tools of theoretical computer science, and empirical tools, such as empirical game-theoretic analysis. Application areas include computational advertising, wireless spectrum, and prediction markets.\"]"
+      },
+      {
+        "code": "CSCI 1470",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202010', '201910', '201810', '201710']",
+        "name": "Deep Learning",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Deep Learning belongs to a broader family of machine learning methods. It is a particular version of artificial neural networks -- a version that emphasizes learning representation with multiple layers of networks. Deep Learning, plus the specialized techniques that it has inspired (e.g. convolutional neural networks, recurrent neural networks, and transformers), have led to rapid improvements in many applications, such as computer vision, machine learning, sound understanding, and robotics. This course intends to give students an overview of the prominent techniques of Deep Learning and its applications in computer vision, language understanding, and other areas. It also aims at providing hands-on practice of implementing deep learning algorithms in Python.']"
+      },
+      {
+        "code": "CSCI 1550",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Probabilistic Methods in Computer Science",
+        "prereqs": "CSCI\\xa01450",
+        "postreqs": "[]",
+        "info": "['Randomization and probabilistic techniques play an important role in modern computer science, with applications ranging from combinatorial optimization and machine learning to communications networks and secure protocols. This course introduces the most fundamental probabilistic techniques used in computer science applications, in particular in randomized algorithms, probabilistic analysis of algorithms and machine learning.\\n\\nPrerequisite: Basic background in probability theory course such as CSCI\\xa01450.']"
+      },
+      {
+        "code": "CSCI 1620",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Computer Systems Security Lab",
+        "prereqs": "CSCI\\xa01620CSCI\\xa01660",
+        "postreqs": "[]",
+        "info": "[\"CSCI\\xa01620 is a half-credit laboratory course intended to be taken concurrently with CSCI\\xa01660 and provides students with a deeper understanding of the material by doing additional assignments, which include extensions of the 1660's assignments. Instructor permission required.\"]"
+      },
+      {
+        "code": "CSCI 1660",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Introduction to Computer Systems Security",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00300",
+        "postreqs": "[]",
+        "info": "['This course teaches principles of computer security from an applied viewpoint and provides hands-on experience on security threats and countermeasures. Topics include code execution vulnerabilities (buffer overflow, sandboxing, mobile code), malware (trojans, viruses, and worms), access control (users, roles, policies), cryptosystems (hashing, signatures, certificates), network security (firewalls, TLS, intrusion detection, VPN), and human and social issues. Prerequisites: one of (CSCI\\xa00160, 0180, or 0190) and (CSCI\\xa00300, 0330, 1310, or 1330).']"
+      },
+      {
+        "code": "CSCI 1670",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Operating Systems",
+        "prereqs": "CSCI\\xa00330",
+        "postreqs": "[]",
+        "info": "['Covers not just the principles of operating systems but the intricacies of how they work. Topics include multithreaded programming, managing threads and interrupts, managing storage, processor scheduling, operating-system structure, virtualization, security, and the design of file systems (both local and distributed). Extensive examples are taken from actual systems, including Linux and Windows. Students are expected to complete both problem sets and programming assignments (in C). Prerequisite: CSCI\\xa00330.']"
+      },
+      {
+        "code": "CSCI 1680",
+        "subject": "CSCI",
+        "terms": "['202120', '201910', '201810', '201710', '201610']",
+        "name": "Computer Networks",
+        "prereqs": "CSCI\\xa00330",
+        "postreqs": "[]",
+        "info": "['Covers the technologies supporting the Internet, from Ethernet and WiFi through the routing protocols that govern the flow of traffic and the web technologies that are generating most of it. A major concern is understanding the protocols used on the Internet: what the issues are, how they work, their shortcomings, and what improvements are on the horizon. Prerequisite: CSCI\\xa00330 or consent of instructor.']"
+      },
+      {
+        "code": "CSCI 1690",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Operating Systems Laboratory",
+        "prereqs": "CSCI\\xa01670CSCI\\xa01670",
+        "postreqs": "[]",
+        "info": "['Half-credit course intended to be taken with CSCI\\xa01670. Students individually write a simple operating system in C. Serves to reinforce the concepts learned in 1670 and provides valuable experience in systems programming. Corequisite: CSCI\\xa01670.']"
+      },
+      {
+        "code": "CSCI 1710",
+        "subject": "CSCI",
+        "terms": "['202120', '202020']",
+        "name": "Logic for Systems",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190CSCI\\xa00220CSCI\\xa01010",
+        "postreqs": "[]",
+        "info": "[\"The course will focus on proving properties about systems and programs. We will study the distinction between programs and specifications, and check for whether the former obey the latter. We will work with tools that have extensive automation such as model constructors, model checkers, and proof assistants. Problems and projects will apply to real-world systems. Prerequisite: CSCI\\xa00160, CSCI\\xa00180, or CSCI\\xa00190. Preferred but not required: CSCI\\xa00220 and CSCI\\xa01010, or instructor's permission.\"]"
+      },
+      {
+        "code": "CSCI 1800",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Cybersecurity and International Relations",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['The global Internet shortens distances, makes businesses more efficient and facilitates greater social interaction. At the same time, it exposes vital national resources to exploitation and makes it easier for the international criminal element to prey on innocent Internet users. Cybersecurity is concerned with making the Internet a more secure and trustworthy environment. In this course we study this topic from the technological and policy points of view. The goal is to facilitate communication across the divide that normally characterizes the technological and policy communities.']"
+      },
+      {
+        "code": "CSCI 1820",
+        "subject": "CSCI",
+        "terms": "['202120', '201920', '201720', '201620']",
+        "name": "Algorithmic Foundations of Computational Biology",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"The course is devoted to computational and statistical methods as well as software tools for DNA, RNA, and protein sequence analysis. The focus is on understanding the algorithmic and mathematical foundations of the methods, the design of associated genomics software tools, as well as on their applications. Topics include: sequence alignment, genome assembly, gene prediction, regulatory genomics, and SNP's variation. The course is open to computer and mathematical sciences students as well as biological and medical students.\"]"
+      },
+      {
+        "code": "CSCI 1860",
+        "subject": "CSCI",
+        "terms": "['202120', '202110']",
+        "name": "Cybersecurity Law and Policy",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Course description: Cybersecurity and cyber conflict pose unique legal and policy challenges for governments, companies and citizens. The way those problems are resolved will shape the future of the internet. This course will examine cybersecurity as a legal and policy problem. How can government and society address network and computer insecurity while upholding privacy, civil liberties and other fundamental values?']"
+      },
+      {
+        "code": "CSCI 1880",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Introduction to Computer Security",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[]"
+      },
+      {
+        "code": "CSCI 1950U",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720']",
+        "name": "Topics in 3D Game Engine Development",
+        "prereqs": "CSCI\\xa01230CSCI\\xa00320CSCI\\xa01950",
+        "postreqs": "[]",
+        "info": "['Covers core techniques in 3D game development with an emphasis on engine architecture. Students independently develop their own engines using C++, OpenGL, and the Qt framework, then work in groups to create a polished game. Topics include: spatial subdivision, player representation, collision detection and response, game networking, GPUs, and OpenGL. Prerequisites: CSCI\\xa01230 and one of CSCI\\xa00320 or CSCI\\xa01950N. Enrollment limited to 25.']"
+      },
+      {
+        "code": "CSCI 1951A",
+        "subject": "CSCI",
+        "terms": "['202120', '202100', '202020', '201920', '201820', '201620']",
+        "name": "Data Science",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190CSCI\\xa00300CSCI\\xa00320",
+        "postreqs": "[]",
+        "info": "['Mastering big data requires skills spanning a variety of disciplines: distributed systems over statistics, machine learning, and a deep understanding of a complex ecosystem of tools and platforms. Data Science refers to the intersection of these skills and how to transform data into actionable knowledge. This course provides an overview of techniques and tools involved and how they work together: SQL and NoSQL solutions for massive data management, basic algorithms for data mining and machine learning, information retrieval techniques, and visualization methods.\\n\\nPrerequisites: CSCI\\xa00160, CSCI\\xa00180, or CSCI\\xa00190. One of CSCI\\xa00300, 0330, CSCI\\xa00320, 1310 or 1330 strongly recommended.']"
+      },
+      {
+        "code": "CSCI 1951I",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720']",
+        "name": "CS for Social Change",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Working in a studio environment to iteratively design, build, and test technical projects in partnership with different social change organizations, students will be placed in small teams to collaboratively work on projects that will range from developing a chatbot to aid community engagement to conducting geospatial data analytics. We will also reflect on our positionality and ethics in engaging in social impact work and what it practically means to leverage technology to create social change on an everyday basis. Enrollment limited to 12. Entry to this course is through application only: https://docs.google.com/forms/d/1wmCbmB6dpOI0-FCjHE50IHgxAOO8gCE38m1dD71JtUw/edit']"
+      },
+      {
+        "code": "CSCI 1951L",
+        "subject": "CSCI",
+        "terms": "['202120', '202100', '201820']",
+        "name": "Blockchains and Cryptocurrencies",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Introduction to modern blockchain-based systems. Topics covered include consensus and distributed computing, examples cryptocurrencies, programming smart contracts, privacy and secrecy, transfer networks, atomic swaps and transactions, non-currency applications of blockchains, and legal and social implications. Students will do a programming project and a term project.']"
+      },
+      {
+        "code": "CSCI 1951T",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820']",
+        "name": "Surveying VR Data Visualization Software for Research",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['In a collaborative group effort, this course will search out, install, test, and critically evaluate VR software that supports data visualization for researchers. We will target several specific types of data, including volumetric data, and remote sensing data. We will investigate the capabilities of software for head-mounted displays (HMDs), big-metal displays like caves and the yurt, and, as a baseline, desktop displays. Software evaluation will include web research, hands-on case studies, and surveying. Results will be documented in a courses wiki.']"
+      },
+      {
+        "code": "CSCI 1952L",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Choreorobotics 0101: Robotics and Choreography (TAPS 1750)",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[]"
+      },
+      {
+        "code": "CSCI 2002",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Privacy and Personal Data Protection",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[]"
+      },
+      {
+        "code": "CSCI 2240",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Interactive Computer Graphics",
+        "prereqs": "CSCI\\xa02240CSCI\\xa01230",
+        "postreqs": "[]",
+        "info": "[\"CSCI\\xa02240 explores several key areas of 3D graphics---rendering, geometry processing, optimization, and simulation---taking a sophisticated approach to each. This year, we are looking to improve the course's coverage of optimization by adding more lecture content on the topic (optimization theory, methods for solving (sparse) linear systems, etc.) and by designing a new assignment (likely 3D as-rigid-as-possible shape manipulation). Prerequisite: Instructor's permission or CSCI\\xa01230.\"]"
+      },
+      {
+        "code": "CSCI 2270",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201620']",
+        "name": "Topics in Database Management",
+        "prereqs": "CSCI\\xa01270",
+        "postreqs": "[]",
+        "info": "['In-depth treatment of advanced issues in database management systems. Topics vary from year to year and may include distributed databases, mobile data management, data stream processing and web-based data management. Prerequisite: CSCI\\xa01270.']"
+      },
+      {
+        "code": "CSCI 2440",
+        "subject": "CSCI",
+        "terms": "['202120', '202020']",
+        "name": "Advanced Algorithmic Game Theory",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This course examines topics in game theory and mechanism design from a computer scientist’s perspective. Through the lens of computation, the focus is the design and analysis of systems utilized by self-interested agents. Students will investigate how the potential for strategic agent behavior can/should influence system design, and the ramifications of conflicts of interest between system designers and participating agents. Emphasis on computational tractability is paramount, so that simple designs are often preferred to optimal. Students will learn to analyze competing designs using the tools of theoretical computer science, and empirical tools, such as empirical game-theoretic analysis. Application areas include computational advertising, wireless spectrum, and prediction markets.']"
+      },
+      {
+        "code": "CSCI 2470",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202010', '201910', '201810', '201710']",
+        "name": "Deep Learning",
+        "prereqs": "CSCI\\xa00150CSCI\\xa00530MATH\\xa00520CSCI\\xa00220MATH\\xa01610APMA\\xa01650",
+        "postreqs": "[]",
+        "info": "['Deep Learning belongs to a broader family of machine learning methods. It is a particular version of artificial neural networks that emphasizes learning representation with multiple layers of networks. Deep Learning, plus the specialized techniques that it has inspired (e.g. convolutional neural networks, recurrent neural networks, and transformers), have led to rapid improvements in many applications, such as computer vision, machine learning, sound understanding, and robotics. This course gives students an overview of the prominent techniques of Deep Learning and its applications in computer vision, language understanding, and other areas. It also provides hands-on practice of implementing deep learning algorithms in Python. A final project will implement an advanced piece of work in one of these areas. Prerequisites: basic programming: (CSCI\\xa00150, 0170, 0190); linear algebra: (CSCI\\xa00530, MATH\\xa00520, 0540); stats/probability: (CSCI\\xa00220, 1450, 0450, MATH\\xa01610, APMA\\xa01650, 1655)']"
+      },
+      {
+        "code": "CSCI 2500A",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Advanced Algorithms",
+        "prereqs": "CSCI\\xa01570",
+        "postreqs": "[]",
+        "info": "['Typically, an algorithm solves one problem, whereas a well-designed data structure can help implement algorithms for a wide variety of problems. We will study the design, analysis and implementation of advanced data structures. Focus is on data structures that are fast, both theoretically and empirically. Prerequisite: CSCI\\xa01570 or the equivalent.']"
+      },
+      {
+        "code": "CSCI 2540",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Advanced Probabilistic Methods in Computer Science",
+        "prereqs": "CSCI\\xa01450CSCI\\xa01570",
+        "postreqs": "[]",
+        "info": "['Advanced topics in applications of probabilistic methods in design and analysis of algorithms, in particular to randomized algorithms and probabilistic analysis of algorithms. Topics include the Markov chains Monte Carlo method, martingales, entropy as a measure for information and randomness, and more. Prerequisite: CSCI\\xa01450. Recommended but not required: CSCI\\xa01570.']"
+      },
+      {
+        "code": "CSCI 2670",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Operating Systems",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[]"
+      },
+      {
+        "code": "CSCI 2820",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201820']",
+        "name": "Algorithmic Foundations of Computational Biology",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Devoted to computational problems and methods in the emerging field of Medical Bioinformatics where genomics, computational biology and bioinformatics impact medical research. We will present challenging problems and solutions in three areas: Disease Associations, Protein Folding and Immunogenomics. This course is open to graduate students and advanced undergraduates with Computational or Life Science backgrounds. Prior background in Biology is not required.']"
+      },
+      {
+        "code": "CSCI 2890",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202020', '202010', '201920', '201910', '201820', '201810', '201720', '201710', '201620', '201610']",
+        "name": "Comprehensive Examination Preparation",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['For graduate students who have met the tuition requirement and are paying the registration fee to continue active enrollment while preparing for a preliminary examination.']"
+      },
+      {
+        "code": "CSCI 2951O",
+        "subject": "CSCI",
+        "terms": "['202120', '202020', '201920', '201820', '201710', '201620']",
+        "name": "Foundations of Prescriptive Analytics",
+        "prereqs": "CSCI\\xa00300CSCI\\xa00330CSCI\\xa01310CSCI\\xa01330CSCI\\xa00530CSCI\\xa01570MATH\\xa00520MATH\\xa00540",
+        "postreqs": "[]",
+        "info": "['We are undoubtedly in the middle of an Analytics Revolution that enabled turning huge amounts data into insights, and insights into predictions about the future. At its final frontiers, Prescriptive Analytics is aimed at identifying the best possible action to take given the constraints and the objective. To that end, this course provides students with a comprehensive overview of the theory and practice of how to apply Prescriptive Analytics through optimization technology. A wide variety of state-of-the-art techniques are studied including: Boolean Satisfiability, Constraint Programming, Linear Programming, Integer Programming, Local Search Meta-Heuristics, and Large-Scale Optimization. Pre Requisites: One of CSCI\\xa00300, 0320, CSCI\\xa00330, CSCI\\xa01310, OR CSCI\\xa01330 and recommended: one of CSCI\\xa00530, CSCI\\xa01570, MATH\\xa00520 or MATH\\xa00540.']"
+      },
+      {
+        "code": "CSCI 2952N",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "Advanced Topics in Deep Learning",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Prepares graduate students with the knowledge they need to apply Deep Learning techniques for their own research. There has been tremendous success in developing unified neural architectures that achieve state-of-the-art performance on language understanding (GPT-3), visual perception (ViT), and even protein structure prediction (AlphaFold). We plan to understand how they work, and how the success of such unified models can give rise to further developments on self-supervised learning, a technique that trains machine learning models without requiring labeled data; and multimodal learning, a technique that utilizes multiple input sources, such as vision, audio, and text. We will study recent attempts to interpret these models, thus revealing potential risks on model bias. Paper reading, student presentations, and invited guest lectures. Students required to work on a final project that explores a novel direction along the line of the papers we cover.']"
+      },
+      {
+        "code": "CSCI 2952O",
+        "subject": "CSCI",
+        "terms": "['202120']",
+        "name": "A Practical Introduction to Advanced 3D Robot Perception",
+        "prereqs": "CSCI\\xa01430CSCI\\xa01470CSCI\\xa01951CSCI\\xa01230",
+        "postreqs": "[]",
+        "info": "[\"This course is aimed at preparing graduate students and senior undergrads to do advanced work at the intersection of two important and popular fields: computer vision and robotics. The course will focus on the latest advances through lectures, readings, and discussion groups. The lectures and readings will be designed to represent a mix of classical techniques as well as the most recent advances in the two fields. The unique highlight of this course is the inclusion of a practical component: students will have to implement a project that combines computer vision and robotics by using cameras and a real robot arm. Students will form teams for this project and have exclusive access to a camera and a small robot arm both of which can be interfaced with the students' laptops. Pre-reqs: One of CSCI\\xa01430, CSCI\\xa01470, CSCI\\xa01951R, CSCI\\xa01230.\"]"
+      },
+      {
+        "code": "CSCI 2990",
+        "subject": "CSCI",
+        "terms": "['202120', '202110', '202020', '202010', '201920', '201910', '201820', '201810', '201720', '201710', '201620', '201610']",
+        "name": "Thesis Preparation",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['For graduate students who have met the residency requirement and are continuing research on a full time basis.']"
+      },
+      {
+        "code": "CSCI 0020",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "The Digital World",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"Removes the mystery surrounding computers and the ever-growing digital world. Introduces a range of topics and many aspects of multimedia, along with explanations of the underlying digital technology and its relevance to our society. Other topics include artificial intelligence, IT security, ethics and the economics of computing as well as the effects of its pervasiveness in today's world. Introductory programming and analytic skills are developed through Excel, HTML, CSS, Javascript, and Python assignments. CSCI0020 is a good introduction to a wide range of CS topics that have broad relevance in our society. No prerequisites. Cannot be taken to fulfill CS Concentration.\"]"
+      },
+      {
+        "code": "CSCI 0100",
+        "subject": "CSCI",
+        "terms": "['202110', '201910', '201710', '201610']",
+        "name": "Data Fluency for All",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"This course is intended to introduce Brown students to computational techniques that data scientists use to tell stories. Data fluency encompasses both data literacy, the basics of statistics and machine learning, and data communication, which relies heavily on principles of design. Students will gain hands on experience using statistical tools such as 'R' to analyze real world data sets, and 'ggplot' to visualize them. Sample application domains include just about every field, since the only requirement is data, which there almost always are (e.g., the complete works of Shakespeare is a sample data set).\"]"
+      },
+      {
+        "code": "CSCI 0112",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201920']",
+        "name": "Computing Foundations: Program Organization",
+        "prereqs": "CSCI\\xa00111",
+        "postreqs": "[]",
+        "info": "['Explores how organization of programs, data, and algorithms affects metrics such as time performance, space usage, social impacts, and data privacy. Students will learn how to choose between candidate data structures for a problem, how to write programs over several standard data structures, how to assess the quality of programs (from theoretical, practical, and social perspectives), and how to apply their skills to computational problems that could arise in a variety of fields. The course will teach object-oriented programming, in combination with basic functional and imperative programming concepts. The course is designed for both concentrators and non-concentrators. Prerequisite: CSCI\\xa00111']"
+      },
+      {
+        "code": "CSCI 0150",
+        "subject": "CSCI",
+        "terms": "['202110', '202020', '201910', '201810', '201710', '201610']",
+        "name": "Introduction to Object-Oriented Programming and Computer Science",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Introduces programming in Java (a modern, widely-used programming language), interactive 2D computer graphics, and some fundamental data structures and algorithms. Students learn by programming a sequence of interactive graphics programs which gradually increase in complexity, including Doodle Jump, Tetris (http://bastilleweb.techhouse.org/), and a significant final project. Lectures are supplemented by skits performed by the UTAs (Undergraduate Teaching Assistants) to teach course concepts and for a bit of added entertainment! This course is intended for both potential concentrators and those who may take only a single course. There are NO prerequisites, and no prior knowledge of programming is required, though students who do have prior programming experience are also encouraged to take the course!']"
+      },
+      {
+        "code": "CSCI 0170",
+        "subject": "CSCI",
+        "terms": "['202110', '202020', '201910', '201810', '201710', '201610']",
+        "name": "Computer Science: An Integrated Introduction",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['CSCI0170/0180 is an introductory sequence that helps students begin to develop the skills, knowledge, and confidence to solve computational problems elegantly, correctly, efficiently, and with ease. The sequence is unique in teaching both the functional and imperative programming paradigms---the first through the languages Scheme and ML in CSCI0170; the second through Java in CSCI0180. The sequence requires no previous programming experience. Indeed, few high school students are exposed to functional programming; hence even students with previous programming experience often find this sequence an invaluable part of their education.\\n\\nAlthough students are taught to use programming languages as tools, the goal of CSCI0170/0180 is not merely to teach programming. On the contrary, the goal is to convey to students that computer science is much more than programming! All of the following fundamental computer science techniques are integrated into the course material: algorithms, data structures, analysis, problem solving, abstract reasoning, and collaboration. Concrete examples are drawn from different subareas of computer science: in 0170, from arbitrary-precision arithmetic, natural language processing, databases, and strategic games; in 0180, from discrete-event simulation, data compression, and client/server architectures.']"
+      },
+      {
+        "code": "CSCI 0190",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Accelerated Introduction to Computer Science",
+        "prereqs": "CSCI\\xa00150CSCI\\xa00170CSCI\\xa00190",
+        "postreqs": "[]",
+        "info": "[\"A one-semester introduction to\\xa0CS\\xa0covering programming integrated with core data structures, algorithms, and analysis techniques, similar to the two-course introductory sequences (CSCI\\xa00150-0160 and CSCI\\xa00170-0180). Students wishing to take CSCI\\xa00190 must pass a\\xa0a sequence of online placement assignments. Though the placement process is most appropriate for students who have had some prior programming experience, it is self-contained so all are welcome to try learning the provided material and attempting placement. Placement information\\xa0will be available by June 1st at\\xa0http://cs.brown.edu/courses/csci0190/.\\xa0Students who do not\\xa0successfully pass the placement process won't be allowed to register.\"]"
+      },
+      {
+        "code": "CSCI 0330",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Introduction to Computer Systems",
+        "prereqs": "CSCI\\xa00160",
+        "postreqs": "[]",
+        "info": "['High-level computer architecture and systems programming. The course covers the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and teaches students assembly-language programming and C-language programming. Extensive programming exercises introduce students to systems-level programming on Unix systems, as well as to multi-threaded programming with POSIX threads. Students will be introduced to the functions of operating systems. Prerequisite: CSCI\\xa00160, 0180, or 0190.']"
+      },
+      {
+        "code": "CSCI 1010",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Theory of Computation",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['The course introduces basic models of computation including languages, finite-state automata and Turing machines. Proves fundamental limits on computation (incomputability, the halting problem). Provides the tools to compare the hardness of computational problems (reductions). Introduces computational complexity classes (P, NP, PSPACE and others). Prerequisite: CSCI0220 or CSCI1450 or CSCI1550 or APMA1650/1655 or CSCI1570']"
+      },
+      {
+        "code": "CSCI 1230",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Introduction to Computer Graphics",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190CSCI\\xa00200",
+        "postreqs": "[]",
+        "info": "['Fundamental concepts in 2D and 3D computer graphics, e.g., 2D raster graphics techniques and simple image processing. Focuses on geometric transformations, and 3D modeling, viewing and rendering. A sequence of assignments in C++ culminates in a simple geometric modeler and ray tracer. Prerequisite: CSCI\\xa00160, CSCI\\xa00180, CSCI\\xa00190, or CSCI\\xa00200. Some knowledge of basic linear algebra is helpful but not required. Strong object-oriented programming ability (e.g., in C++, Java or Python) is required.']"
+      },
+      {
+        "code": "CSCI 1234",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Computer Graphics Lab",
+        "prereqs": "CSCI\\xa01234CSCI\\xa01230",
+        "postreqs": "[]",
+        "info": "[\"CSCI\\xa01234 is a half-credit course intended to be taken concurrently with CSCI\\xa01230 and provides students with a greater understanding of the material by having them extend each of 1230's assignments to greater depth.\"]"
+      },
+      {
+        "code": "CSCI 1250",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201710', '201610']",
+        "name": "Introduction to Computer Animation",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Introduction to 3D computer animation production including story writing, production planning, modeling, shading, animation, lighting, and compositing. The first part of the course leads students through progressive exercises that build on each other to learn basic skills in 2D and 3D animation. At each step, student work is evaluated for expressiveness, technical correctness and aesthetic qualities. Students then work in groups creating a polished short animation. Emphasis on in-class critique of ongoing work which is essential to the cycle of visually evaluating work in progress, determining improvements, and implementing them for further evaluation.\\n\\nPlease see course website for application procedure.']"
+      },
+      {
+        "code": "CSCI 1270",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Database Management Systems",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190CSCI\\xa00300CSCI\\xa00320",
+        "postreqs": "[]",
+        "info": "['Introduction to database structure, organization, languages, and implementation. Relational model, query languages, query processing, query optimization, normalization, file structures, concurrency control and recovery algorithms, and distributed databases. Coverage of modern applications such as the Web, but with emphasis on Database Management Systems internals. Prerequisites: CSCI\\xa00160, CSCI\\xa00180, or CSCI\\xa00190. One of CSCI\\xa00300, 0330 or CSCI\\xa00320 is strongly recommended.']"
+      },
+      {
+        "code": "CSCI 1330",
+        "subject": "CSCI",
+        "terms": "['202110', '202010']",
+        "name": "Computer Systems",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"High-level computer architecture and systems programming. The course covers the organization of computer systems (in terms of storage units, caches, processors, and I/O controllers) and teaches students assembly-language programming and C-language programming. Extensive programming exercises introduce students to systems-level programming on Linux systems, as well as to multi-threaded programming with POSIX threads. Students will be introduced to the functions of operating systems. Enrollment limited to Master's students only\"]"
+      },
+      {
+        "code": "CSCI 1410",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201620']",
+        "name": "Artificial Intelligence",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Algorithms and representations used in artificial intelligence. Introduction and implementation of algorithms for search, planning, perception, knowledge representation, logic, probabilistic representation and reasoning, robotics and machine learning.']"
+      },
+      {
+        "code": "CSCI 1450",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810']",
+        "name": "Advanced Introduction to Probability for Computing and Data Science",
+        "prereqs": "CSCI\\xa01450APMA\\xa01650APMA\\xa01655",
+        "postreqs": "[]",
+        "info": "['Probability and statistics have become indispensable tools in computer science. Probabilistic methods and statistical reasoning play major roles in machine learning, cryptography, network security, communication protocols, web search engines, robotics, program verification, and more. This course introduces the basic concepts of probability and statistics, focusing on topics that are most useful in computer science applications. Topics include: modeling and solution in sample space, random variables, simple random processes and their probability distributions, Markov processes, limit theorems, and basic elements of Bayesian and frequentist statistical inference. Basic programming experience required for homework assignments.\\nStudents cannot get concentration credit for both CSCI\\xa01450 and APMA\\xa01650/ APMA\\xa01655']"
+      },
+      {
+        "code": "CSCI 1510",
+        "subject": "CSCI",
+        "terms": "['202110', '201920', '201720']",
+        "name": "Introduction to Cryptography and Computer Security",
+        "prereqs": "CSCI\\xa00220CSCI\\xa01010",
+        "postreqs": "[]",
+        "info": "['This course studies the tools for guaranteeing safe communication and computation in an adversarial setting. We develop notions of security and give provably secure constructions for such cryptographic objects as cryptosystems, signature schemes and pseudorandom generators. We also review the principles for secure system design. Prerequisites: CSCI\\xa00220, and either CSCI 0510 or CSCI\\xa01010.']"
+      },
+      {
+        "code": "CSCI 1570",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Design and Analysis of Algorithms",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190CSCI\\xa00220CSCI\\xa01010CSCI\\xa01450MATH\\xa00750MATH\\xa01010MATH\\xa01530",
+        "postreqs": "[]",
+        "info": "['A single algorithmic improvement can have a greater impact on our ability to solve a problem than ten years of incremental improvements in CPU speed. We study techniques for designing and analyzing algorithms. Typical problem areas addressed include hashing, searching, dynamic programming, graph algorithms, network flow, and optimization algorithms including linear programming. Prerequisites: CSCI\\xa00160, CSCI\\xa00180, or CSCI\\xa00190, and one of CSCI\\xa00220, CSCI\\xa01010, CSCI\\xa01450, MATH\\xa00750, MATH\\xa01010, MATH\\xa01530.']"
+      },
+      {
+        "code": "CSCI 1600",
+        "subject": "CSCI",
+        "terms": "['202110', '201910', '201710', '201610']",
+        "name": "Real-Time and Embedded Software",
+        "prereqs": "CSCI\\xa00300CSCI\\xa00320CSCI\\xa00330CSCI\\xa01310CSCI\\xa01330",
+        "postreqs": "[]",
+        "info": "['Comprehensive introduction to the design and implementation of software for programmable embedded computing systems, in applications such as Internet of Things, transportation, and mobile. Includes the overall embedded real-time software design and development processes, with a focus on engineering for reliability. Major project component. Prerequisites: one of CSCI\\xa00300, CSCI\\xa00320, CSCI\\xa00330, CSCI\\xa01310, or CSCI\\xa01330']"
+      },
+      {
+        "code": "CSCI 1650",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710']",
+        "name": "Software Security and Exploitation",
+        "prereqs": "CSCI\\xa01650",
+        "postreqs": "[]",
+        "info": "['CSCI\\xa01650 covers software exploitation techniques and state-of-the-art mechanisms for hardening software. The course begins with a summary of prevalent software defects, typically found in applications written in memory unsafe languages, like C/C++, and proceeds with studying traditional and modern exploitation techniques, ranging from classical code injection and code reuse up to the latest goodies (e.g., JIT-ROP). For the most part, it focuses on defenses against certain vulnerability classes and the way(s) to bypass them. Students will be introduced to advanced software exploitation techniques and countermeasures, and study (in depth) the boundaries and effectiveness of standard hardening mechanisms, such as address space randomization and stack and heap protections.']"
+      },
+      {
+        "code": "CSCI 1730",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Design and Implementation of Programming Languages",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190",
+        "postreqs": "[]",
+        "info": "['Explores the design principles of modern programming languages through implementation, comparison, and reflection. Examines a variety of linguistic features that impact both control and data. Topics vary by year; more information on the course home page. Prerequisite: CSCI\\xa00160, CSCI\\xa00180 or CSCI\\xa00190.']"
+      },
+      {
+        "code": "CSCI 1760",
+        "subject": "CSCI",
+        "terms": "['202110', '201810', '201710', '201610']",
+        "name": "Multiprocessor Synchronization",
+        "prereqs": "CSCI\\xa00330",
+        "postreqs": "[]",
+        "info": "['This course examines the theory and practice of multiprocessor synchronization. Subjects covered include multiprocessor architecture, mutual exclusion, wait-free and lock-free synchronization, spin locks, monitors, load balancing, concurrent data structures, and transactional synchronization. Prerequisites: CSCI\\xa00330']"
+      },
+      {
+        "code": "CSCI 1805",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810']",
+        "name": "Computers, Freedom and Privacy",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Who is the Big Brother that we most fear? Is it the NSA -- or is it Google and Facebook? Rapidly changing social mores and the growing problem of cybersecurity have all contributed to a sense that privacy is dead. Laws protecting privacy and civil liberties are stuck in the analog age, while the capabilities for mass digital surveillance continue to advance rapidly. This course will examine a variety of informational privacy and technology issues. A major theme: the historical and contemporary struggle to bring surveillance under democratic control to protect against abuses of privacy, civil liberties and human rights.']"
+      },
+      {
+        "code": "CSCI 1810",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Computational Molecular Biology",
+        "prereqs": "CSCI\\xa00160CSCI\\xa00180CSCI\\xa00190",
+        "postreqs": "[]",
+        "info": "['High-throughput experimental approaches now allow molecular biologists to make large-scale measurements of DNA, RNA, and protein, the three fundamental molecules of the cell. The resulting datasets are often too large for manual analysis and demand computational techniques. This course introduces algorithms for sequence comparison and alignment; molecular evolution and phylogenetics; DNA/RNA sequencing and assembly; recognition of genes and regulatory elements; and RNA and protein structure. The course demonstrates how to model biological problems in terms of computer science.\\n\\nPrerequisites: CSCI\\xa00160, CSCI\\xa00180 or CSCI\\xa00190, or consent of instructor.']"
+      },
+      {
+        "code": "CSCI 1870",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '202000', '201910', '201900', '201800']",
+        "name": "Cybersecurity Ethics",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This timely, topical course offers a comprehensive examination of ethical questions in cybersecurity. These issues pervade numerous, diverse aspects of the economy and society in the Information Age, from human rights to international trade. Students will learn about these topics, beginning first with acquaintance with the dominant ethical frameworks of the 20th and 21st centuries, then employing these frameworks to understand, analyze, and develop solutions for leading ethical problems in cybersecurity. The things that you learn in this course will stay with you and inform your personal and professional lives.']"
+      },
+      {
+        "code": "CSCI 1950N",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201610']",
+        "name": "2D Game Engines",
+        "prereqs": "CSCI\\xa00160",
+        "postreqs": "[]",
+        "info": "['2D Game Engines covers core techniques used in the development of the software that drives computer games and other interactive software. Projects involve building different varieties of 2D game engines as well as games that require use of the features implemented in the engines. Topics include high-level engine design, vector and raster graphics, animation, collision detection, physics, content management, and game AI. Prerequisite: CSCI\\xa00160, 0180, or 0190. This course has also been offered as DISP CSCI1971. Students interested in an override should request on through Courses@Brown. Priority will be given to both seniors and juniors.']"
+      },
+      {
+        "code": "CSCI 1951C",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910', '201810', '201710', '201610']",
+        "name": "Designing Humanity Centered Robots",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This semester we will explore how emerging technologies might shape our lives in the near future, as we design and build working prototypes. We will proceed from a set of questions that will complement a deep immersion in design process and creative practice. We will explore the “how” and “why” of designing new technologies. The course will help students build a portfolio of design projects that are in response to various design strategies such as Human Centered Design, Speculative Design, Critical Design, and Design Fiction, as well as developing skills for iterative prototyping and participatory critique. Students interested in registering should sign up here: https://docs.google.com/forms/d/e/1FAIpQLSdvo0o4ICpj55ZubZQTXdVRfBmnbCHbT8egriwPOcWcbRiy6A/viewform']"
+      },
+      {
+        "code": "CSCI 1951V",
+        "subject": "CSCI",
+        "terms": "['202110', '202010']",
+        "name": "Hypertext/Hypermedia: The Web Was Not the Beginning and the Web Is Not the End",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['A “hypertext/hypermedia” system is used for creating, linking, exploring, annotating, and searching for information. Designed 30+ years ago, the Web is a global hypertext system but represents only a small part of past visions. Students will explore hypertext’s history through hands-on use and demonstrations of systems from the 1970s onward, identifying still-uncommon features. They will study architecture and design of hypermedia systems, examining topics such as relationship modeling, permanence, collaboration, searching, and societal impact. Web programming projects throughout the semester -- using modern MERN full stack technology -- will culminate in group projects creating hypertext/hypermedia systems of the future. Prerequisites: An introductory CS sequence or equivalent experience']"
+      },
+      {
+        "code": "CSCI 1951X",
+        "subject": "CSCI",
+        "terms": "['202110']",
+        "name": "Formal Proof and Verification",
+        "prereqs": "CSCI\\xa01710",
+        "postreqs": "[]",
+        "info": "['Proof assistants are tools that are used to check the correctness of programs. Unlike tools like model checkers and SAT solvers, proof assistants are highly interactive. Machine-checked formal proofs lead to trustworthy programs and fully specified reliable mathematics. This course introduces students to the theory and use of proof assistants, using the system Lean. We will use Lean to verify properties of functional programs and theorems from pure mathematics. We will learn the theory of deductive reasoning and the logic that these tools are based on. Text: \"The Hitchhiker\\'s Guide to Logical Verification\" by Blanchette et al. Prereqs: CSCI\\xa01710 Logic for Systems or a proof-based mathematics course. Basic familiarity with functional programming (e.g. Haskell, ML) is helpful but not required.']"
+      },
+      {
+        "code": "CSCI 1951Y",
+        "subject": "CSCI",
+        "terms": "['202110']",
+        "name": "The Robots Are Coming! The Robots Are Coming! (ENGN 1931U)",
+        "prereqs": "ENGN\\xa01931",
+        "postreqs": "[]",
+        "info": "['Interested students must register for ENGN\\xa01931U.']"
+      },
+      {
+        "code": "CSCI 1952V",
+        "subject": "CSCI",
+        "terms": "['202110']",
+        "name": "Algorithms for the People",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Computer science has transformed every aspect of society, including communication, transportation, commerce, finance, and health. The revolution enabled by computing has been extraordinarily valuable. The largest tech companies generate almost a trillion dollars a year and employ millions of people. But technology does not affect everyone in the same way. In this seminar, we will examine how new technologies, ranging from facial recognition to drones, are affecting marginalized communities.']"
+      },
+      {
+        "code": "CSCI 2000",
+        "subject": "CSCI",
+        "terms": "['202110', '201820']",
+        "name": "Computer Science Research Methods",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"What does it mean to conduct research in computer science, and how might we be most effective at it? To help begin a fruitful career in CS research, this class will cover the philosophy and practice of forming ideas, executing research, presenting outcomes, and understanding and contributing to our community. The aim is to kick-start your time at Brown CS by being the 'missing semester' on how to be a PhD student, and by peeling back the curtain on why CS academia works like this to help you make the most of your time. Discussions include: motivating, pitching, and funding research; finding, reading, and reviewing research; selecting research areas and forming hypotheses; designing, performing, and evaluating research; communicating research; research collaborations; and research ethics. We will learn together through presentations, activities, discussions, plus readings and assignments out of class.\"]"
+      },
+      {
+        "code": "CSCI 2370",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201810']",
+        "name": "Interdisciplinary Scientific Visualization",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Learn how to do research on using computer graphics, visualization, and interaction applied to scientific problems. Working in small multidisciplinary groups, students identify scientific problems, propose solutions involving computational modeling and visualization, design and implement the solutions, apply them to the problems, and evaluate their success. Prerequisites: programming experience, some graphics experience, problem ideas. Instructor permission required.']"
+      },
+      {
+        "code": "CSCI 2390",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910']",
+        "name": "Privacy-Conscious Computer Systems",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['We will examine research papers on distributed system design, privacy-preserving, and secure computing techniques, and discuss how to apply these ideas in practice. The goal is to understand if, and how we can better protect the sensitive data we entrust to computer systems, both against leaks and against unauthorized or unethical use. We will look at web services, datacenter systems, distributed communication systems, and machine learning systems. During class, you will present and discuss papers, finish a set of hands-on assignments, work on a research project, and present your project at the end of the semester.']"
+      },
+      {
+        "code": "CSCI 2810",
+        "subject": "CSCI",
+        "terms": "['202110']",
+        "name": "Advanced Computational Molecular Biology",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['High-throughput experimental approaches now allow molecular biologists to make large-scale measurements of DNA, RNA, and protein, the three fundamental molecules of the cell. The resulting datasets are often too large for manual analysis and demand computational techniques. This course introduces algorithms for sequence comparison and alignment; molecular evolution and phylogenetics; DNA/RNA sequencing and assembly; recognition of genes and regulatory elements; and RNA and protein structure. The course demonstrates how to model biological problems in terms of computer science.']"
+      },
+      {
+        "code": "CSCI 2951F",
+        "subject": "CSCI",
+        "terms": "['202110', '201910', '201710']",
+        "name": "Learning and Sequential Decision Making",
+        "prereqs": "CSCI\\xa01420",
+        "postreqs": "[]",
+        "info": "['The course explores automated decision making from a computer-science perspective. It examines efficient algorithms, where they exist, for single agent and multiagent planning as well as approaches to learning near-optimal decisions from experience. Topics will include Markov decision processes, stochastic and repeated games, partially observable Markov decision processes, and reinforcement learning. Of particular interest will be issues of generalization, exploration, and representation. Participants should have taken a graduate-level computer science course and should have some exposure to machine learning from a previous computer-science class or seminar; check with instructor if not sure. Recommended Prerequisites: CSCI 1950F or CSCI\\xa01420']"
+      },
+      {
+        "code": "CSCI 2951X",
+        "subject": "CSCI",
+        "terms": "['202110', '202020', '201920', '201720']",
+        "name": "Reintegrating AI",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['The goal of AI has been to build complete intelligent agents, yet the field has been fragmented into a collection of problem-specific areas of study. We will first spend a few weeks in lecture covering a new approach to integrating existing AI subfields into a single agent architecture, and remainder of the semester on self-directed, semester-long research projects.\\nGrading based on a mid-semester project proposal, and a substantial open-ended final project. The projects will be multi-disciplinary in nature but students will have the opportunity to work in small groups, so they need not necessarily have expertise in the relevant areas. Graduate students welcome; undergraduates need instructor permission to enroll.']"
+      },
+      {
+        "code": "CSCI 2952F",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201920']",
+        "name": "Distributed Systems at Scale: Microservices Management",
+        "prereqs": "CSCI\\xa01380CSCI\\xa01680CSCI\\xa01670",
+        "postreqs": "[]",
+        "info": "['This seminar investigates and explores cutting edge challenges and issues in the emerging Microservices paradigm. Microservices are a specific cloud paradigm for enabling distributed systems and applications at scale. In particular, this course builds on the foundations provided by the initial distributed systems, networking and operating systems offering (i.e., CSCI\\xa01380, CSCI\\xa01680, CSCI\\xa01670) and explores how these concepts are used to realize, manage, and orchestrate microservices. The course is driven by materials from academic conferences and industrial blogs. The industrial blogs will provide context and motivation for different problems. The academic reasons will provide a deep divide into the technical details: we will focus on reading, analyzing, critiquing and brainstorming academic papers. Students taking this class should be familiar with reading academic literature, performing critical analysis, and working on open ended problems with undefined solutions. More information: http://cs.brown.edu/courses/info/csci2952-f/']"
+      },
+      {
+        "code": "CSCI 2952G",
+        "subject": "CSCI",
+        "terms": "['202110', '202010', '201910']",
+        "name": "Deep Learning in Genomics",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Deep learning models have achieved impressive performance in fields like computer vision and NLP. Given an adequate amount of data, these models can extract meaningful representations to perform accurate predictions. The collection of vast quantities of biological data naturally leads to the question -- can deep learning help us understand genomics? In this seminar-style class, we will cover the recent research literature trying to answer this question. We will learn how state-of-the-art models like CNNs, RNNs, GCNs, GANs, etc. have been applied to solve significant problems in genomics and what unique challenges are presented by the data in this field.']"
+      },
+      {
+        "code": "CSCI 2952M",
+        "subject": "CSCI",
+        "terms": "['202110']",
+        "name": "The Works that Made and Changed Machine Learning",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This seminar is aimed at current and potential future graduate students who want to gain technical depth and perspective on the field of statistical machine learning. Students will read, present, and discuss some of the original papers that had a transformative impact on the development of machine learning. Topics will range from mathematical foundations, to major algorithmic, and breakthrough works on deep learning and its applications in vision and NLP. Ideal students will have a mix of: 1) motivation to learn how to read, present and evaluate technical papers, 2) mathematical maturity and basic ML background, 3) willingness to participate and contribute to discussions. Enrollment will be limited, and will be finalized after the first class. No formal prerequisite.']"
+      },
+      {
+        "code": "CSCI 0160",
+        "subject": "CSCI",
+        "terms": "['202100', '201920', '201820', '201720', '201620']",
+        "name": "Introduction to Algorithms and Data Structures",
+        "prereqs": "CSCI\\xa00150CSCI\\xa00150",
+        "postreqs": "[]",
+        "info": "['Introduces fundamental techniques for problem solving by computer that are relevant to most areas of computer science, both theoretical and applied. Algorithms and data structures for sorting, searching, graph problems, and geometric problems are covered. Programming assignments conform with the object-oriented methodology introduced in CSCI\\xa00150. Prerequisite: CSCI\\xa00150 or written permission.']"
+      },
+      {
+        "code": "CSCI 0180",
+        "subject": "CSCI",
+        "terms": "['202100', '202020', '201920', '201820', '201720', '201620']",
+        "name": "Computer Science: An Integrated Introduction",
+        "prereqs": "CSCI\\xa00170CSCI\\xa00112CSCI\\xa00190CSCI\\xa00111",
+        "postreqs": "[]",
+        "info": "[\"A continuation of CSCI\\xa00170. Students learn to program in Java while continuing to develop their algorithmic and analytic skills. Emphasis is placed on object-oriented design, imperative programming, and the implementation and use of data structures. Examples are drawn from such areas as databases, strategy games, web programming, graphical user interfaces, route finding, and data compression. Lab work done with the assistance of TAs. Prerequisite: CSCI\\xa00112, 0170, or CSCI\\xa00190. CSCI\\xa00111 can be used if additional work is done and with the instructor's permission.\"]"
+      },
+      {
+        "code": "CSCI 1260",
+        "subject": "CSCI",
+        "terms": "['202020', '201910', '201710']",
+        "name": "Compilers and Program Analysis",
+        "prereqs": "CSCI\\xa00220CSCI\\xa00320CSCI\\xa00300CSCI\\xa00330CSCI\\xa01310CSCI\\xa01330",
+        "postreqs": "[]",
+        "info": "['Lexical analysis, syntactic analysis, semantic analysis, code generation, code optimization, translator writing systems. Prerequisites: CSCI\\xa00220, or CSCI\\xa00320, or CSCI\\xa00300, or CSCI\\xa00330, or CSCI\\xa01310, or CSCI\\xa01330.']"
+      },
+      {
+        "code": "CSCI 1301",
+        "subject": "CSCI",
+        "terms": "['202020']",
+        "name": "Livestreaming Reinvented",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[]"
+      },
+      {
+        "code": "CSCI 1320",
+        "subject": "CSCI",
+        "terms": "['202020', '201920', '201820', '201720', '201620']",
+        "name": "Creating Modern Web & Mobile Applications",
+        "prereqs": "CSCI\\xa00320CSCI\\xa00330CSCI\\xa00300",
+        "postreqs": "[]",
+        "info": "['This course covers all aspects of web application development, including initial concept, user-centric design, development methodologies, front and back end development, databases, security, testing, load testing, accessibility, and deployment. There will be a substantial team project. The course is designed for students with a programming background (equiv CSCI\\xa00320/CSCI\\xa00330/CSCI\\xa00300) who want to learn how to build web applications, and for students with a background in web design, including HTML and Javascript, who are interested in learning how to extend design techniques to incorporate the technologies needed in modern web applications. Project teams will consist of students with both backgrounds.']"
+      },
+      {
+        "code": "CSCI 1460",
+        "subject": "CSCI",
+        "terms": "['202020', '201920', '201820', '201720', '201620']",
+        "name": "Computational Linguistics",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['The application of computational methods to problems in natural-language processing. In particular we examine techniques due to recent advances in deep learning: word embeddings, recurrent neural networks (e.g., LSTMs), sequence-to-sequence models, and generative adversarial networks (GANs). Programming projects include parsing, machine translation, question answering, and chat-bots. The prerequisite of CS 1470 (or the equivalent background) is very important.']"
+      },
+      {
+        "code": "CSCI 1850",
+        "subject": "CSCI",
+        "terms": "['202020', '201920']",
+        "name": "Deep Learning in Genomics",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['Deep learning models have achieved impressive performance in fields like computer vision and NLP. The collection of vast quantities of biological data naturally leads to the question -- can deep learning help us understand genomics? We will cover deep learning models like Auto-encoders and Convolutional Neural Networks and how have they been applied to solve problems in genomics. We will learn about different biological datasets, interpretation methods that help explain predictions, and what unique challenges are presented by the data in this field. Critical thinking and learning from the practical application of models to data are expected outcomes.']"
+      },
+      {
+        "code": "CSCI 1900",
+        "subject": "CSCI",
+        "terms": "['202020', '201920', '201820', '201720', '201620']",
+        "name": "csciStartup",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "[\"In csciStartup, you will incorporate and run a startup. Apply as a team to be part of a prototype class to remove the mystery from starting a company and to focus entirely on a product you're passionate about. Teams will incorporate, build a product for real customers, advertise their product, and improve it week after week. We'll spend half our class meetings with individual attention to each group's progress and how to improve your offerings. Assignments will be designed to apply to any company, with enough flexibility to ensure you're always working on things that make sense for your business.\"]"
+      },
+      {
+        "code": "CSCI 1951P",
+        "subject": "CSCI",
+        "terms": "['202020']",
+        "name": "Design of Robotic Systems (ENGN 1931I)",
+        "prereqs": "ENGN\\xa01931",
+        "postreqs": "[]",
+        "info": "['Interested students must register for ENGN\\xa01931I.']"
+      },
+      {
+        "code": "CSCI 2950X",
+        "subject": "CSCI",
+        "terms": "['202020']",
+        "name": "Topics in Programming Languages and Systems",
+        "prereqs": "CSCI\\xa01730",
+        "postreqs": "[]",
+        "info": "['Examines contemporary research topics in software construction from the perspectives of programming languages, software engineering and computer-aided verification. The primary goals are to understand which theory applies to which problems and to convert that theory into tools. Topics include security, modularity, and new paradigms in software composition. Prerequisite: CSCI\\xa01730 or written permission of the instructor.']"
+      },
+      {
+        "code": "CSCI 2951K",
+        "subject": "CSCI",
+        "terms": "['202020', '201920', '201820', '201720', '201620']",
+        "name": "Topics in Collaborative Robotics",
+        "prereqs": "CSCI\\xa01410",
+        "postreqs": "[]",
+        "info": "['Practical approaches to designing intelligent systems. Topics include search and optimization, uncertainty, learning, and decision making. Application areas include natural language processing, machine vision, machine learning, and robotics. Prerequisite: CSCI\\xa01410, 1420, 1460, 1480, or 1950F; or instructor permission.']"
+      },
+      {
+        "code": "CSCI 2951U",
+        "subject": "CSCI",
+        "terms": "['202020', '201920', '201720', '201620']",
+        "name": "Topics in Software Security",
+        "prereqs": "",
+        "postreqs": "[]",
+        "info": "['This course investigates the state-of-the-art in software exploitation and defense. Specifically, the course is structured as a seminar where students present research papers to their peers. We will begin with a summary of prevalent software defects, typically found in applications written in memory unsafe languages, and proceed to surveying what we are up against: traditional and modern exploitation techniques, ranging from classical code injection and code reuse up to the newest goodies (JIT-ROP, Blind ROP). For the bulk part, we will focus on the latest advances in protection mechanisms, mitigation techniques, and tools against modern vulnerability classes and exploitation methods.']"
+      },
+      {
+        "code": "CSCI 2952I",
+        "subject": "CSCI",
+        "terms": "['202020', '201920']",
+        "name": "Language Processing in Humans and Machines",
+        "prereqs": "CLPS\\xa00200",
+        "postreqs": "[]",
+        "info": "['Understanding language requires transforming sequences of sounds into words, combining words into meaningful thoughts, and incorporating thoughts into an ongoing discourse. Psychologists and linguists have been trying to reverse-engineer how humans do this so easily, at the speed of conversation. In parallel, computer scientists have been trying to engineer machines to solve the same problems, leading to products like Siri and Alexa. This class will explore how these two kinds of research can help each other, bringing recent insights from machine learning into the study of human language processing, and insights from human processing into the architectures of machine language systems. For CS students: Machine Learning, Deep Learning, Computational Linguistics (or comparable experience). For CLPS students: At least one of CLPS\\xa00200, 0300, 0800, or 1800']"
+      }
+]
