@@ -1,7 +1,8 @@
 'use client'
 
 import React, { useCallback, useState, useEffect } from 'react'
-import styles from './search.module.css'
+import styles from './searchBar.module.css'
+import SearchResults from '../searchResults/searchResults'
 
 export default function SearchBar() {
   const [query, setQuery] = useState('')
@@ -51,19 +52,7 @@ export default function SearchBar() {
         type='text'
         value={query}
       />
-      {results.length > 0 && (
-        <ul className={styles.results}>
-          {results.map(({ id, payload }) => (
-            <li className={styles.result} key={id}>
-              {/* <Link href="/posts/[id]" as={`/posts/${id}`}>
-                <a>{title}</a>
-              </Link> */}
-              <p>{`Code: ${payload["code"]}`}</p>
-              <p>{`Name: ${payload["name"]}`}</p>
-            </li>
-          ))}
-        </ul>
-      )}
+      {results.length > 0 && <SearchResults results={results} />}
     </div>
   )
 }
