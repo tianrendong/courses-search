@@ -1,5 +1,6 @@
 {
 	"name": "Course Search",
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
+	"workspaceFolder": "/workspaces/course-search",
 	"postCreateCommand": "pip3 install -r requirements.txt"
 }
