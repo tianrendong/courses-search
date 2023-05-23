@@ -29,13 +29,13 @@ if not COHERE_API_KEY:
 class SearchClient:
     def __init__(
         self,
-        qdrabt_api_key: str = QDRANT_API_KEY,
+        qdrant_api_key: str = QDRANT_API_KEY,
         qdrant_url: str = QDRANT_URL,
         cohere_api_key: str = COHERE_API_KEY,
         collection_name: str = "animal",
     ):
         self.qdrant_client = QdrantClient(
-            url=qdrant_url, api_key=qdrabt_api_key)
+            url=qdrant_url, api_key=qdrant_api_key)
         self.collection_name = collection_name
 
         self.qdrant_client.recreate_collection(
@@ -45,15 +45,15 @@ class SearchClient:
             ),
         )
 
-        self.co_client = cohere.Client(api_key=cohere_api_key)
+        self.cohere_client = cohere.Client(api_key=cohere_api_key)
 
     # Qdrant requires data in float format
     def _float_vector(self, vector: List[float]):
         return list(map(float, vector))
 
     # Embedding using Cohere Embed model
-    def _embed(self, text: str):
-        return self.co_client.embed(texts=[text]).embeddings[0]
+    def _embed(self, texts: List[str]):
+        return self.cohere_client.embed(texts=texts).embeddings[0]
 
     # Prepare Qdrant Points
     def _qdrant_format(self, data: List[Dict[str, str]]):
@@ -61,7 +61,7 @@ class SearchClient:
             models.PointStruct(
                 id=uuid.uuid4().hex,
                 payload={"key": point["key"], "desc": point["desc"]},
-                vector=self._float_vector(self._embed(point["desc"])),
+                vector=self._float_vector(self._embed([point["desc"]])),
             )
             for point in data
         ]
@@ -84,7 +84,7 @@ class SearchClient:
 
     # Search using text query
     def search(self, query_text: str, limit: int = 3):
-        query_vector = self._embed(query_text)
+        query_vector = self._embed([query_text])
 
         return self.qdrant_client.search(
             collection_name=self.collection_name,
