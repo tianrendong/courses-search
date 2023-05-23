@@ -32,7 +32,7 @@ class SearchClient:
         qdrant_api_key: str = QDRANT_API_KEY,
         qdrant_url: str = QDRANT_URL,
         cohere_api_key: str = COHERE_API_KEY,
-        collection_name: str = "animal",
+        collection_name: str = "cs-courses",
     ):
         self.qdrant_client = QdrantClient(
             url=qdrant_url, api_key=qdrant_api_key)
@@ -60,8 +60,8 @@ class SearchClient:
         points = [
             models.PointStruct(
                 id=uuid.uuid4().hex,
-                payload={"key": point["key"], "desc": point["desc"]},
-                vector=self._float_vector(self._embed([point["desc"]])),
+                payload={"code": point["code"], "name": point["name"], "info": point["info"]},
+                vector=self._float_vector(self._embed([point["info"]])),
             )
             for point in data
         ]
@@ -70,10 +70,6 @@ class SearchClient:
 
     # Index data
     def index(self, data: List[Dict[str, str]]):
-        """
-        data: list of dict with keys: "key" and "desc"
-        """
-
         points = self._qdrant_format(data)
 
         result = self.qdrant_client.upsert(
@@ -95,8 +91,7 @@ class SearchClient:
 if __name__ == "__main__":
     client = SearchClient()
 
-    # import data from data.json file
-    with open("data.json", "r") as f:
+    with open("cs-courses.json", "r") as f:
         data = json.load(f)
 
     index_result = client.index(data)
@@ -105,7 +100,7 @@ if __name__ == "__main__":
     print("====")
 
     search_result = client.search(
-        "Tallest animal in the world, quite long neck.",
+        "",
     )
 
     print(search_result)
