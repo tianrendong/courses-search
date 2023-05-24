@@ -10,7 +10,7 @@ export default function Search() {
   const [isLoading, setIsLoading] = useState(false)
   const [results, setResults] = useState([])
 
-  const searchEndpoint = (query: string) => `/api/search?q=${query}`
+  const searchEndpoint = (query: string) => `/api/search?collection=cs-courses&q=${query}`
 
   const onChange = useCallback((event: React.FormEvent<HTMLInputElement>) => {
     const query = event.currentTarget.value;
