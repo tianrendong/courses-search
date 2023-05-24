@@ -1,11 +1,13 @@
 'use client'
 
 import React, { useCallback, useState, useEffect } from 'react'
-import styles from './searchBar.module.css'
-import SearchResults from '../searchResults/searchResults'
+import styles from './search.module.css'
+import Results from './results'
+import Spinner from './spinner'
 
-export default function SearchBar() {
+export default function Search() {
   const [query, setQuery] = useState('')
+  const [isLoading, setIsLoading] = useState(false)
   const [results, setResults] = useState([])
 
   const searchEndpoint = (query: string) => `/api/search?q=${query}`
@@ -17,13 +19,14 @@ export default function SearchBar() {
 
   const submitQuery = useCallback(() => {
     if (query.length) {
+      setResults([])
+      setIsLoading(true)
       fetch(searchEndpoint(query))
         .then(res => res.json())
         .then(res => {
+          setIsLoading(false)
           setResults(res.results)
         })
-    } else {
-      setResults([])
     }
   }, [query])
 
@@ -48,11 +51,12 @@ export default function SearchBar() {
       <input
         className={styles.search}
         onChange={onChange}
-        placeholder='Search posts'
+        placeholder='Search courses'
         type='text'
         value={query}
       />
-      {results.length > 0 && <SearchResults results={results} />}
+      {isLoading && <Spinner />}
+      {results.length > 0 && <Results results={results} />}
     </div>
   )
 }

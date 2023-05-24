@@ -1,4 +1,4 @@
-import styles from './searchResults.module.css'
+import styles from './search.module.css'
 
 interface Payload {
     code: string
@@ -14,7 +14,7 @@ interface SearchResultsProps {
     results: Result[]
 }
 
-export default function SearchResults({ results }: SearchResultsProps) {
+export default function Results({ results }: SearchResultsProps) {
     return (
         <ul className={styles.results}>
             {results.map(({ id, payload }) => (
